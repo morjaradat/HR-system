@@ -1,0 +1,49 @@
+body{
+    background: url(../img/bk.jpg);
+}
+#head {
+    width: 100%;
+    background-color: #00000054;
+    padding: 11px;
+}
+#head h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+main{
+    width: 100%;
+    display: inline;
+}
+#formdiv {
+    font-size: 24px;
+    display: grid;
+    width: 20%;
+    float: left;
+    margin: 30px;
+    padding: 15px;
+    color: white;
+    height: 208px;
+    background-color: #0000005c;
+    position: relative;
+    top: 56px;
+}
+#tablediv {
+    float: right;
+    position: relative;
+    margin: 30px;
+    right: 17%;
+    top: 58px;
+    background-color: #0000006b;
+    color: white;
+    width: 632px;
+    height: 211px;
+}
+#tablediv table ,tr ,th ,td {
+    font-size: 25px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 21px;
+    margin: 30px;
+}
